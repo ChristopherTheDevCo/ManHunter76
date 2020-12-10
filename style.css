@@ -225,7 +225,7 @@ opacity: 1;
     border-radius: .3rem;
     position: relative;
     z-index: 10;
-    opacity:0.9;
+    opacity:0;
     transition: opacity .4s, transform 0.4s, 
     box-shadow 0.4s;
 }
@@ -234,7 +234,7 @@ opacity: 1;
 .change > .front-side{
     transform: translateZ(5rem) translateX(3rem);
     box-shadow: 0 2rem 4rem #777;
-    opacity: 0.5;
+    opacity: 0;
     z-index: 0;
 }
 
@@ -275,7 +275,7 @@ opacity: 1;
     box-shadow: 0 2rem 4rem #777;
     flex-direction: column;
     transform: translateZ(-5rem) translateX(3rem);
-    opacity: 0.5;
+    opacity: 0;
     transition: opacity .4s, transform 0.4s; 
     box-shadow: 0.4s;
 }
@@ -283,7 +283,7 @@ opacity: 1;
 .change > .back-side{
     transform: translateZ(0) translateX(0);
     box-shadow: 0 .5rem 2rem #aaa;
-    opacity: 0.9;
+    opacity: 0;
     
 }
 
