@@ -226,7 +226,7 @@ opacity: 1;
     position: relative;
     z-index: 10;
     opacity:0.9;
-    transition: opacity .4s, transform 0.4s, 
+    transition: opacity 0.4s, transform 0.4s, 
     box-shadow 0.4s;
 }
 
@@ -265,7 +265,7 @@ opacity: 1;
     padding-bottom: 1.5rem;
 }
 
-.back-side{
+.back-side {
     position: absolute;
     top: 0;
     background-color: #be0404;
@@ -276,13 +276,13 @@ opacity: 1;
     flex-direction: column;
     transform: translateZ(-5rem) translateX(3rem);
     opacity: 0.5;
-    transition: opacity .4s, transform 0.4s, 
+    transition: opacity 0.4s, transform 0.4s, 
     box-shadow 0.4s;
 }
 
 .change > .back-side{
     transform: translateZ(0) translateX(0);
-    box-shadow: 0 .5rem 2rem #aaa;
+    box-shadow: 0 0.5rem 2rem #aaa;
     opacity: 0.9;
     
 }
@@ -310,7 +310,7 @@ opacity: 1;
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: .2;
+    opacity: 0.2;
 }
 
 .bg-video{
