@@ -225,7 +225,7 @@ opacity: 1;
     border-radius: .3rem;
     position: relative;
     z-index: 10;
-    opacity:100;
+    opacity:0;
     transition: opacity .4s, transform 0.4s, 
     box-shadow 0.4s;
 }
@@ -234,7 +234,7 @@ opacity: 1;
 .change > .front-side{
     transform: translateZ(5rem) translateX(3rem);
     box-shadow: 0 2rem 4rem #777;
-    opacity: 100;
+    opacity: 0.4;
     z-index: 0;
 }
 
