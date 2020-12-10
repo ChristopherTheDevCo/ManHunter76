@@ -275,9 +275,9 @@ opacity: 1;
     box-shadow: 0 2rem 4rem #777;
     flex-direction: column;
     transform: translateZ(-5rem) translateX(3rem);
-    opacity: 100;
-    transition: opacity .4s, transform 0.4s; 
-    box-shadow: 0.4s;
+    opacity: 1;
+    transition: opacity .4s, transform 0.4s, 
+    box-shadow 0.4s;
 }
 
 .change > .back-side{
