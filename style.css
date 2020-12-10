@@ -283,7 +283,7 @@ opacity: 1;
 .change > .back-side{
     transform: translateZ(0) translateX(0);
     box-shadow: 0 .5rem 2rem #aaa;
-    opacity: 100;
+    opacity: 0;
     
 }
 
