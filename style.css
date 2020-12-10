@@ -234,7 +234,7 @@ opacity: 1;
 .change > .front-side{
     transform: translateZ(5rem) translateX(3rem);
     box-shadow: 0 2rem 4rem #777;
-    opacity: 0.5;
+    opacity: 0;
     z-index: 0;
 }
 
